@@ -22,7 +22,7 @@ spec:
     syncOptions:
       - CreateNamespace=true  
 ignoreDifferences:
-  - group: core
+  - group: apps
     kind: Secret
     name: my-password
     jsonPointers:
