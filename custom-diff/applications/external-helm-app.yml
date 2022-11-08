@@ -22,9 +22,8 @@ spec:
     syncOptions:
       - CreateNamespace=true  
 ignoreDifferences:
-  - group: apps
-    kind: Secret
-    name: example-secret
-    jsonPointers:
-      - /data
+  kind: Secret
+  name: example-secret
+  jsonPointers:
+    - /data
    
