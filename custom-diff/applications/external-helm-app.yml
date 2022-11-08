@@ -25,5 +25,5 @@ ignoreDifferences:
     - group: apps
       kind: Deployment
       jsonPointers:
-        - /spec/replicas
+        - /data/my-password
    
